@@ -13,7 +13,7 @@
 <br>
 
 <!-- ⬇️ Replace with your best prototype photo -->
-<img src="images/prototype-hero.jpg" alt="Prototype of the IR object counter" width="85%"/>
+<img src="https://raw.githubusercontent.com/nandkishor22/Object-Detection-Counting-Using-ICs-ECE/refs/heads/main/image/IMG_20261002_124759.jpg.jpeg" alt="Prototype of the IR object counter" width="25%"/>
 
 <sub><i>Final breadboard prototype: IR sensors, logic ICs, counter and 7-segment display</i></sub>
 
@@ -318,46 +318,13 @@ The flip-flop remembers which sensor of a pair was triggered first, so a stray f
 <div align="center">
 
 <!-- ⬇️ Replace with your schematic export (KiCad / Proteus / Tinkercad / hand-drawn scan) -->
-<img src="schematics/circuit-diagram.png" alt="Complete circuit diagram" width="85%"/>
+<img src="https://raw.githubusercontent.com/nandkishor22/Object-Detection-Counting-Using-ICs-ECE/refs/heads/main/image/1790926700037.png" alt="Complete circuit diagram" width="40%"/>
 
 <sub><i>Complete circuit diagram</i></sub>
 
 </div>
 
 Tools you can use to draw it: **Tinkercad Circuits**, **Proteus**, **KiCad**, **EasyEDA** or **Falstad Circuit Simulator**.
-
----
-
-## 📸 Prototype Gallery
-
-<div align="center">
-
-| Full Setup | Breadboard Wiring |
-|:---:|:---:|
-| <img src="images/full-setup.jpg" width="400" alt="Full setup"/> | <img src="images/breadboard-wiring.jpg" width="400" alt="Breadboard wiring"/> |
-| **IR Sensor Placement** | **7-Segment Display Output** |
-| <img src="images/ir-sensors.jpg" width="400" alt="IR sensors"/> | <img src="images/display-output.jpg" width="400" alt="Display output"/> |
-
-</div>
-
-**Photo tips:** use good lighting and a plain background, take a top-down shot of the breadboard, and show the display with a visible count (for example `3`).
-
----
-
-## 🎬 Demo
-
-<div align="center">
-
-<!-- ⬇️ Add a short GIF (under 5 MB) or a YouTube thumbnail link -->
-<img src="images/demo.gif" alt="Working demo" width="70%"/>
-
-<!-- Or link a video:
-[![Watch the demo](images/demo-thumbnail.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
--->
-
-</div>
-
----
 
 ## 🛠️ Build Steps
 
@@ -456,29 +423,6 @@ Tools you can use to draw it: **Tinkercad Circuits**, **Proteus**, **KiCad**, **
 - BCD encoding and 7-segment decoding
 - Power supply design and decoupling
 - Breadboard prototyping, testing and debugging
-
----
-
-## 📁 Repository Structure
-
-```text
-ir-object-counter/
-├── README.md
-├── images/
-│   ├── prototype-hero.jpg
-│   ├── full-setup.jpg
-│   ├── breadboard-wiring.jpg
-│   ├── ir-sensors.jpg
-│   ├── display-output.jpg
-│   └── demo.gif
-├── schematics/
-│   └── circuit-diagram.png
-└── docs/
-    └── datasheets/
-        ├── 74HC193.pdf
-        ├── CD4511.pdf
-        └── 74HC74.pdf
-```
 
 ---
 
